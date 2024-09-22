@@ -37,11 +37,11 @@ variable "to_port" {
 
 variable "protocol" {
     default = "tcp"
-    t
+    
 }
 
 variable "ingress_cidr" {
     type = list(string)
     default = ["0.0.0.0/0"]
-    t
+    
 }
